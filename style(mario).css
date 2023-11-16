@@ -4,6 +4,10 @@ body{
      margin: 20px;
      background-color:#00111C;
      color:white;
+     margin-left: 170px;
+     overflow-x: hidden;
+     scrollbar-width: thin;
+     scrollbar-color: red;   
 }
 header{
     text-align: center;
@@ -28,16 +32,17 @@ ul{
     list-style-type: none;
     margin:0;
     padding:0;
+    width: 200px;
     overflow: hidden;
 }
 li{
     float: left;
 }
 li a{
-    display:flexbox;
+    display:block;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 6px;
+    padding:100px;
     background-color: #001A2C;
 }
 
@@ -45,3 +50,38 @@ li a:hover {
     color:#4794c8;
     transition: color, 0.15s;
 }
+nav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+nav a{
+    padding: 1px 90px 17px 17px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+.prueba{
+    color:yellow
+}
+::-webkit-scrollbar {
+    width: 10px;
+ }
+ ::-webkit-scrollbar-track {
+    background: rgb(7, 21, 41);
+     box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #003486;
+    height: 12px; 
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 80, 130);
+}
+  
