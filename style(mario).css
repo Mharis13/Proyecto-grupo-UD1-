@@ -84,4 +84,7 @@ nav a{
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(0, 80, 130);
 }
+html{
+    scroll-behavior: smooth;
+}
   
