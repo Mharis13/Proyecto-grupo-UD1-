@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+     margin: 20px;
+     background-color:#00111C;
+     color:white;
+     margin-left: 170px;
+     overflow-x: hidden;
+     scrollbar-width: thin;
+     scrollbar-color: red;   
+}
+header{
+    text-align: center;
+    background-color: #00253E;
+    padding: 10px;
+}
+footer{
+    font-weight:bold;
+    background-color: #00253E;
+}
+h3{
+    font-style: italic;
+    width: fit-content;
+    background-color: #003A61;
+}
+h2{
+    text-decoration: underline;
+    font-style: italic;
+    background-color: #002137;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 200px;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:100px;
+    background-color: #001A2C;
+}
+
+li a:hover {
+    color:#4794c8;
+    transition: color, 0.15s;
+}
+nav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+nav a{
+    padding: 1px 90px 17px 17px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+.prueba{
+    color:yellow
+}
+mark.opcion{
+background-color:#4794c8
+}
+div{
+    width: auto;
+    background-color: rgb(15, 27, 62);
+    width: 240px;
+    height: 50px;
+    padding:20px;
+    display: inline-flexbox;
+}
+    
+
+
+  
