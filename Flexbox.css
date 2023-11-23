@@ -6,7 +6,18 @@ head{
         padding: 10px;
 }
 
+flex.container{
+    display: flex;
+    background-color: red;
+}
 
+flex.container> div{
+    display: flex;
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
 
 section
      {
@@ -21,6 +32,14 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: yellow;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 7px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
     flex-wrap: wrap;
     margin: 10px;
     padding: 7px;
