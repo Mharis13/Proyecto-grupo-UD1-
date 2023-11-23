@@ -8,3 +8,13 @@ div{
     background: green;
 }
 p{color: red;}
+
+::-webkit-scrollbar-track{
+    background: grey;
+}
+::-webkit-scrollbar-thumb{
+    background: white;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: black;
+}
