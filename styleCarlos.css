@@ -1,0 +1,106 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+    
+header{
+    text-align: center; 
+}
+
+img{
+    width: 160px;
+    position: relative;
+    top: -155px;
+    float:right
+}
+
+iframe{    
+    width: 300px;
+    height: 140px;  
+    float: right;
+    position: relative;
+    top: 30px;
+    border: 3px solid;
+}
+
+h1{
+    background-color:#00253E ;
+    color: whitesmoke;
+    padding: 34px;    
+}
+
+nav{
+    border: 5px solid;
+    color: #00253E;
+    background-color: #003486;
+}
+
+li{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+    background-color: #a9d1ff;
+}
+body::-webkit-scrollbar {
+    width: 14px; /* Ancho del scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: rgb(0, 80, 130);
+     box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #003486; /* Color del thumb */
+    border-radius: 20px; /* Redondez del thumb */
+    border: 3px solid rgb(0, 80, 130); /* Crea un padding alrededor del thumb */
+  }
+
+section{
+    margin-bottom: 20px;
+} 
+
+.tabulacion{
+    margin-left: 40px;
+}
+
+div{    
+    width: 950px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width:7px;
+    background: #6090af;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: #3f577e;
+    border: radius 10px;
+    border-right: 2px solid #6090af;
+}
+
+#Reproductor{
+
+    position: absolute;
+    right: 20px;
+    top: 650px;    
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #3f577e; /* Cambia el color de fondo a negro */
+}
+
+audio::-webkit-media-controls-play-button {
+    color: white; /* Cambia el color del botón de reproducción a blanco */
+}
